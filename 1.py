@@ -2,10 +2,12 @@
 # and returns a new list with all it's element value doubled.
 # It should raise an error if the parameter is not a list
 
-testList = []
+
 n = [1, 2, 3, 4, 5]
+# n = ''
 
 def double_list(input_list):
+    testList = []
     if type(input_list) != type(testList):
         raise Error
     newList = []
